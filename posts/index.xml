@@ -6,8 +6,21 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Mon, 02 Mar 2020 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 15 Sep 2020 00:00:00 +0000</lastBuildDate>
         <atom:link href="http://timkleier.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Centralized Authentication With a Microservices Gateway</title>
+            <link>http://timkleier.com/posts/centralized-authentication-with-microservices-gateway/</link>
+            <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
+            
+            <guid>http://timkleier.com/posts/centralized-authentication-with-microservices-gateway/</guid>
+            <description>An API gateway with microservices is a common pattern for enterprise architectures. In this post, we&amp;rsquo;ll explore this pattern for an eCommerce enterprise, implementing a gateway API that directs traffic to a product catalog service and a product inventory service. The gateway application, utilizing FusionAuth, functions as a centralized authentication mechanism. The microservices, with authorization passed to them from the gateway, implement distributed authorization.
+View the article</description>
+            <content type="html"><![CDATA[<p>An API gateway with microservices is a common pattern for enterprise architectures. In this post, we&rsquo;ll explore this pattern for an eCommerce enterprise, implementing a gateway API that directs traffic to a product catalog service and a product inventory service. The gateway application, utilizing FusionAuth, functions as a centralized authentication mechanism. The microservices, with authorization passed to them from the gateway, implement distributed authorization.</p>
+<p><a href="https://fusionauth.io/blog/2020/09/15/microservices-gateway">View the article</a></p>
+]]></content>
+        </item>
         
         <item>
             <title>How to Version a REST API</title>
