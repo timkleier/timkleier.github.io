@@ -4,6 +4,8 @@
   "type": "module",
   "version": "2.3.0",
   "private": true,
+  "strict": true,
+  "forceConsistentCasingInFileNames": true,
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
