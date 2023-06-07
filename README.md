@@ -1,4 +1,4 @@
-# Tim Kleier's Personal Website
+# Tim Kleier - Personal Website
 
 ## Installation
 
