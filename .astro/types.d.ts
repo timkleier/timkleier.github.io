@@ -212,6 +212,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"developer-productivity-with-github-copilot.md": {
+	id: "developer-productivity-with-github-copilot.md";
+  slug: "developer-productivity-with-github-copilot";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "from-plan-to-platform.md": {
 	id: "from-plan-to-platform.md";
   slug: "from-plan-to-platform";
