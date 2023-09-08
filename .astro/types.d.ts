@@ -268,6 +268,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"ways-to-use-ai-in-development.md": {
+	id: "ways-to-use-ai-in-development.md";
+  slug: "ways-to-use-ai-in-development";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 };
 "store": {
 "item1.md": {
