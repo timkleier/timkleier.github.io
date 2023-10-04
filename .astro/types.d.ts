@@ -261,6 +261,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"ubiquitous-programming-language.md": {
+	id: "ubiquitous-programming-language.md";
+  slug: "ubiquitous-programming-language";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "vertical-and-horizontal-slices.md": {
 	id: "vertical-and-horizontal-slices.md";
   slug: "vertical-and-horizontal-slices";
