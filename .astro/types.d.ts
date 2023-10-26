@@ -226,6 +226,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"how-to-handle-breaking-changes.md": {
+	id: "how-to-handle-breaking-changes.md";
+  slug: "how-to-handle-breaking-changes";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "how-to-navigate-startup-tech-decisions.md": {
 	id: "how-to-navigate-startup-tech-decisions.md";
   slug: "how-to-navigate-startup-tech-decisions";
