@@ -226,6 +226,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"full-stack-application-development-with-genai.md": {
+	id: "full-stack-application-development-with-genai.md";
+  slug: "full-stack-application-development-with-genai";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "how-to-handle-breaking-changes.md": {
 	id: "how-to-handle-breaking-changes.md";
   slug: "how-to-handle-breaking-changes";
