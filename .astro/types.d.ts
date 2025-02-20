@@ -268,6 +268,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"product-definition.md": {
+	id: "product-definition.md";
+  slug: "product-definition";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "software-development-corn-maze.md": {
 	id: "software-development-corn-maze.md";
   slug: "software-development-corn-maze";
