@@ -268,6 +268,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"model-context-protocol.md": {
+	id: "model-context-protocol.md";
+  slug: "model-context-protocol";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "product-definition.md": {
 	id: "product-definition.md";
   slug: "product-definition";
