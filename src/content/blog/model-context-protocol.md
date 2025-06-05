@@ -10,6 +10,6 @@ In Part 1, [Model Context Protocol: The Missing Layer Between AI and Your Apps](
 
 In Part 2, [Wrapping an Existing API with MCP: How to Expose Your Current APIs to LLMs](https://gun.io/news/2025/05/wrap-existing-api-with-mcp/), we walk through how to make an existing API—like a support ticket system—LLM-friendly by defining it as a tool. With just a few lines of code, your endpoints become accessible via plain-language prompts.
 
-In Part 3, [Building a Standalone MCP Server (Coming Soon)](), we walk through how to build a standalone server using MCP. Instead of wrapping an existing API, you'll define purpose-built tools and serve them directly to large language models.
+In Part 3, [Building a Standalone MCP Server](https://gun.io/news/2025/06/mcp-server-legacy-database-ai-integration/), we walk through how to build a standalone server using MCP. Instead of wrapping an existing API, you'll define purpose-built tools and serve them directly to large language models.
 
 In Part 4, [Creating Business Workflows with LLMs and MCP (Coming Soon)](), we go a step further and show how to compose tools into intelligent workflows that automate tasks across your stack, from CRMs to calendars.
