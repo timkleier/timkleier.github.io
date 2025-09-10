@@ -233,6 +233,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"how-to-extend-crud-to-business-workflows.md": {
+	id: "how-to-extend-crud-to-business-workflows.md";
+  slug: "how-to-extend-crud-to-business-workflows";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "how-to-handle-breaking-changes.md": {
 	id: "how-to-handle-breaking-changes.md";
   slug: "how-to-handle-breaking-changes";
