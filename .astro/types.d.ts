@@ -205,6 +205,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"beyond-vibe-coding.md": {
+	id: "beyond-vibe-coding.md";
+  slug: "beyond-vibe-coding";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "centralized-authentication-with-microservices-gateway.md": {
 	id: "centralized-authentication-with-microservices-gateway.md";
   slug: "centralized-authentication-with-microservices-gateway";
